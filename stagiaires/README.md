@@ -1,3 +1,3 @@
 # Stagiaires
 
-Les dossiers de chaque stagiaire.
+Les dossiers de chaque stagiaire
