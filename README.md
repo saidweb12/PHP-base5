@@ -173,6 +173,8 @@ Vous trouverez les fichiers du formateur dans le dossier `formateur/` de ce git.
 
 Pour chaque exercice, vous devrez créer vos fichiers avec le nom demandé dans le dossier `stagiaires/{votre_prénom}/`.
 
+N'oubliez pas de créer une `branche` pour ne pas travailler sur la `main` !
+
 Vous pouvez également utiliser ce dossier pour stocker vos fichiers de travail de `PHP-base`. 
 
 **Ne modifiez pas les fichiers de travail de `PHP-base` qui se trouvent en dehors de votre dossier !**
