@@ -14,7 +14,7 @@
   - [Les commentaires](#les-commentaires)
   - [Placement des balises PHP](#placement-des-balises-php)
 - [Les variables](#les-variables)
-  - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)..
+  - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
 
 
 
