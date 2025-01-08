@@ -15,6 +15,7 @@
   - [Placement des balises PHP](#placement-des-balises-php)
 - [Les variables](#les-variables)
   - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
+  - [Les tableaux](#les-tableaux)
 
 
 
@@ -408,6 +409,16 @@ nom_de_variable	= "Yes";   // ne commence pas par $
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------:|
 
 Il existe d'autres types de variables, mais nous les verrons plus tard.
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+### Les tableaux
+
+Un tableau est une variable qui peut contenir plusieurs valeurs.
 
 ---
 
