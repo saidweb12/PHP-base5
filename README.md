@@ -16,7 +16,9 @@
 - [Les variables](#les-variables)
   - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
   - [Les tableaux](#les-tableaux)
-
+  - 
+[Function à mettre en liste](#function-à-mettre-en-liste)
+  
 
 
 
@@ -419,6 +421,19 @@ Il existe d'autres types de variables, mais nous les verrons plus tard.
 ### Les tableaux
 
 Un tableau est une variable qui peut contenir plusieurs valeurs.
+
+Les tableaux en PHP sont des structures très flexibles, capables de fonctionner à la fois comme des tableaux indexés et associatifs. Cela signifie qu'un tableau peut contenir des données indexées par des entiers et des chaînes dans une seule et même structure.
+
+Ils peuvent être multidimensionnels, c'est-à-dire qu'ils peuvent contenir des tableaux dans des tableaux.
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+## Function à mettre en liste
+echo, var_dump,
 
 ---
 
