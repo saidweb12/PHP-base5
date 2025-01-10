@@ -13,7 +13,7 @@ $DATE = date("Y-m-d H:i:s"); //format datetime MySQL
   <title>05 date <= date("H:i") // Heure et minute?>
 </head>
 <h1>05 date <?= $DATE ?></h1>
-<p>Il est <?= $DATE("H:i:s") // heure, minute, seconde  
+<p>Il est <?= date("H:i:s") // heure, minute, seconde  
           ?>
 
   <body>
