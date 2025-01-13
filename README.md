@@ -15,7 +15,10 @@
   - [Placement des balises PHP](#placement-des-balises-php)
 - [Les variables](#les-variables)
   - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
-
+  - [Les tableaux](#les-tableaux)
+  - 
+[Function à mettre en liste](#function-à-mettre-en-liste)
+  
 
 
 
@@ -408,6 +411,45 @@ nom_de_variable	= "Yes";   // ne commence pas par $
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------:|
 
 Il existe d'autres types de variables, mais nous les verrons plus tard.
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+### Les tableaux
+
+Un tableau est une variable qui peut contenir plusieurs valeurs.
+
+Les tableaux en PHP sont des structures très flexibles, capables de fonctionner à la fois comme des tableaux indexés et associatifs. Cela signifie qu'un tableau peut contenir des données indexées par des entiers et des chaînes dans une seule et même structure.
+
+Ils peuvent être multidimensionnels, c'est-à-dire qu'ils peuvent contenir des tableaux dans des tableaux.
+
+Documentation : [Tableaux en PHP](https://www.php.net/manual/fr/language.types.array.php)
+
+Pour créer un tableau en PHP, on peut utiliser la fonction `array()`, ou les crochets `[]` :
+
+```php
+// Tableau indexé
+$voitures = array("Volvo", "BMW", "Toyota");
+// Tableau indexé en raccourci
+$langages = ["PHP", "MySQL", "JavaScript"];
+// affichage des tableaux via le débugueur var_dump()
+var_dump($voitures, $langages);
+```
+
+| 08 | ![Exercice 08](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 08 | Créez un fichier `08-premier-tableau.php` Créez un tableau indexé (avec uniquement la valeur au format `string`) avec le prénom des élèves de votre classe. Ensuite faites un `var_dump()` pour afficher son contenu |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+## Function à mettre en liste
+echo, var_dump,
 
 ---
 
