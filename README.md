@@ -439,8 +439,8 @@ $langages = ["PHP", "MySQL", "JavaScript"];
 var_dump($voitures, $langages);
 ```
 
-| 08 | ![Exercice 08](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 08 | Créez un fichier `08-premiers-tableaux.php` Créez un tableau indexé (avec uniquement la valeur au format `string`) avec le prénom des élèves de votre classe. Ensuite faites un `var_dump()` pour afficher son contenu |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 08 | ![Exercice 08](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 08 | Créez un fichier `08-premier-tableau.php` Créez un tableau indexé (avec uniquement la valeur au format `string`) avec le prénom des élèves de votre classe. Ensuite faites un `var_dump()` pour afficher son contenu |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ---
 
