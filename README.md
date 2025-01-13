@@ -426,6 +426,17 @@ Les tableaux en PHP sont des structures très flexibles, capables de fonctionner
 
 Ils peuvent être multidimensionnels, c'est-à-dire qu'ils peuvent contenir des tableaux dans des tableaux.
 
+Documentation : [Tableaux en PHP](https://www.php.net/manual/fr/language.types.array.php)
+
+Pour créer un tableau en PHP, on peut utiliser la fonction `array()`, ou les crochets `[]` :
+
+```php
+// Tableau indexé
+$voitures = array("Volvo", "BMW", "Toyota");
+// Tableau indexé en raccourci
+$langages = ["PHP", "MySQL", "JavaScript"];
+```
+
 ---
 
 [Retour au menu](#menu-de-navigation)
