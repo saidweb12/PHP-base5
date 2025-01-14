@@ -448,6 +448,35 @@ var_dump($voitures, $langages);
 
 ---
 
+#### Les tableaux indexés
+
+Un tableau indexé est un tableau où chaque élément est associé à un index numérique autogénéré.
+
+L'index commence à 0.
+
+```php
+<?php
+// Tableau indexé
+$stagiairesWeb2025= [
+    "Agim", 
+    "Omer", 
+    "Massine", 
+    "Loukas", 
+    "Soulaiman", 
+    "Nordine", 
+    "Vahagn", 
+    "Daniel", 
+    "Samuel", 
+    "Sola",
+    "Reda",
+    "Jean-Michaël",
+    "Saïd",
+    "Géraldine",
+    "Jeremy",
+    "Mykyta",
+    ];
+```
+
 ## Function à mettre en liste
 echo, var_dump,
 
