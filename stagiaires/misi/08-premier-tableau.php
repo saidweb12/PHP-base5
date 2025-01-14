@@ -8,4 +8,3 @@ $prenom = ["saïd", "Daniel", "Mykyta", "Géraldine", "Reda", "Samuel", "Jeremy"
 
 // affichage des tableaux via le débugueur var_dump()
 var_dump($voitures, $langages, $prenom);
-?>
