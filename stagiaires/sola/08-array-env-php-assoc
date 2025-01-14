@@ -1,0 +1,7 @@
+<?php
+
+$stagiairesweb2 = ["Daniel", "Samuel", "Reda", "Sola", "JM", "Jeremy", "Géraldine", "Saïd", "Mykyta" ];
+
+var_dump($stagiairesweb2);
+
+?>
