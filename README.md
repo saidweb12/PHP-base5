@@ -480,10 +480,21 @@ $stagiairesWeb2025= [
 // Pour compter les éléments d'un tableau, nous pouvons utiliser la fonction native count()
 echo "<p>Il y a ".count($stagiairesWeb2025)." élèves dans la classe.</p>";
 
-// Pour afficher un élément du tableau, nous utilisons l'index de l'élément, ici par exemple les premiers élèves :
+// Pour afficher un élément du tableau, nous utilisons l'index de l'élément,
+// ici par exemple les premiers élèves :
 
-echo "<p>Les 3 premiers élèves sont : ".$stagiairesWeb2025[0].", ".$stagiairesWeb2025[1].", ".$stagiairesWeb2025[2]."</p>";
+echo "<p>Les 3 premiers élèves sont : ".$stagiairesWeb2025[0].", ".$stagiairesWeb2025[1].",
+ ".$stagiairesWeb2025[2]."</p>";
 ```
+
+| 9 | ![Exercice 9](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 9 | Créez un fichier nommé `09-exe-array-index.php` et affichez avec des `echo` les données de la variable `$monTab = ['un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix'];` séparées par un `<hr>` à chaque ligne |
+|---|:---------------------------------------------------------------------------------------------------------:|:----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
 
 ## Function à mettre en liste
 echo, var_dump(), count(),
