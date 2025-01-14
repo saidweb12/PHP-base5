@@ -18,6 +18,13 @@
   - [Les tableaux](#les-tableaux)
   - [Les tableaux indexés](#les-tableaux-indexés)
   - [Les tableaux associatifs](#les-tableaux-associatifs)
+  - [Les conditions](#les-conditions)
+    - [if](#if)
+    - [else](#else)
+    - [elseif() ou else if()](#elseif-ou-else-if)
+    - [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
+    - [Les opérateurs logiques](#les-opérateurs-logiques)
+    - [Les opérateurs d'affectation](#les-opérateurs-daffectation)
   - 
 [Function à mettre en liste](#function-à-mettre-en-liste)
   
@@ -516,6 +523,239 @@ var_dump($tab3);
 | 10 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 10 | Créez un fichier nommé `10-exe-array-assoc.php` et affichez avec des `echo` les données de la variable `$monTabAssoc =  ["prenom" => "Michaël", "nom" => "Pitz", "caracteristique" => "égocentrique","dateDeNaissance" => "1951-03-02"];` séparées par un `<hr>` à chaque ligne |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+### Les conditions
+
+Les conditions sont la deuxième brique fondamentale d'un langage de programmation, elles permettent d'évaluer l'état de propositions, de variables, etc.
+
+#### if
+
+`if(condition) { action si condition == true }`
+
+Le **if** va permettre de vérifier si une condition est vraie (true)
+
+```php
+$a = true;
+if($a){
+  echo "ok";
+}
+```
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+
+#### else
+
+`else { action si condition d'un if préalable est false}`
+
+```php
+$a = false;
+if($a){
+  echo "ok";
+}else{
+  echo "ko";
+}
+```
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### elseif() ou else if()
+
+`elseif(){sinon si true} ou else if(sinon si true){}`
+
+```php
+$a = mt_rand(0,2);
+if($a==0){
+  echo "Pas de chance, tu perds un point";
+// sinon si
+}elseif($a==1){
+  echo "Super, un point gagné !";
+}else{
+  echo "Magnifique, tu gagnes encore 2 points";
+}
+```
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### Les opérateurs de comparaison
+
+Les opérateurs de comparaison permettent de comparer deux valeurs.
+
+| Opérateur | Description                                                |
+|-----------|------------------------------------------------------------|
+| ==        | Égal à                                                     |
+| ===       | Égal à et du même type ou strictement égal                 |
+| != ou <>  | Différent de                                               |
+| !==       | Différent de ou de type différent ou strictement différent |
+| <         | Inférieur à                                                |
+| >         | Supérieur à                                                |
+| <=        | Inférieur ou égal à                                        |
+| >=        | Supérieur ou égal à                                        |
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### Les opérateurs logiques
+
+Les opérateurs logiques permettent de combiner plusieurs conditions.
+
+| Opérateur | Description | Détails                                                                                                   |
+|-----------|-------------|-----------------------------------------------------------------------------------------------------------|
+| and       | ET          | toutes les conditions doivent être vraies                                                                 |
+| or        | OU          | Une des conditions doit être vraie                                                                        |
+| xor       | OU exclusif | Une des conditions doit être vraie, mais pas les deux, peu utilisé sans () car peut provoquer des erreurs |
+| !         | NON         | Inverse la condition (true devient false - false devient true)                                            |
+
+
+Lien vers les opérateurs logiques :
+
+https://www.php.net/manual/fr/language.operators.logical.php
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+
+
+#### Les opérateurs d'affectation
+
+Les opérateurs d'affectation permettent d'affecter une valeur à une variable.
+
+| Opérateur | Description | Détails                                                                                                   |
+|-----------|-------------|-----------------------------------------------------------------------------------------------------------|
+| =         | Affectation | Affecte une valeur à une variable                                                                          |
+| +=        | Affectation et addition | Ajoute la valeur à la variable et affecte le résultat à la variable |
+| -=        | Affectation et soustraction | Soustrait la valeur à la variable et affecte le résultat à la variable |
+| *=        | Affectation et multiplication | Multiplie la valeur à la variable et affecte le résultat à la variable |
+| /=        | Affectation et division | Divise la valeur à la variable et affecte le résultat à la variable |
+| %=        | Affectation et modulo | Divise la valeur à la variable et affecte le reste à la variable |
+| .=        | Affectation et concaténation | Concatène la valeur à la variable et affecte le résultat à la variable |
+
+##### +=
+
+équivaut à "ajouter à la valeur de"
+
+```php
+$a=1;
+// manière longue
+$a= $a+2;
+// manière courte
+$a+=2;
+```
+
+##### -=
+
+équivaut à "retirer à la valeur de"
+
+```php
+$a=1;
+// manière longue
+$a= $a-2;
+// manière courte
+$a-=2;
+```
+
+##### .=
+
+Signe de concaténation
+
+```php
+.= concaténation
+$a ="coucou";
+$a .=" les amis";
+```
+
+
+Lien vers les opérateurs d'affectation :
+
+https://www.php.net/manual/fr/language.operators.assignment.php
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### Les Opérateurs d'incrémentation et décrémentation
+
+Les opérateurs d'incrémentation et décrémentation permettent d'augmenter ou diminuer la valeur d'une variable. Ce sont donc des opérateurs d'affectation également.
+
+| Opérateur | Description | Détails                                                                                                   | Exemple | Résultat |  
+|-----------|-------------|-----------------------------------------------------------------------------------------------------------|---------|----------|
+| ++        | Incrémentation | Incrémente la valeur de 1 | $a = 1; $a++; | 2 |        
+| --        | Décrémentation | Décrémente la valeur de 1 | $a = 1; $a--; | 0 |
+| +=        | Incrémentation | Incrémente la valeur de la variable | $a = 1; $a+=2; | 3 |
+| -=        | Décrémentation | Décrémente la valeur de la variable | $a = 1; $a-=2; | -1 |
+| *=        | Incrémentation | Multiplie la valeur de la variable | $a = 1; $a*=2; | 2 |
+| /=        | Décrémentation | Divise la valeur de la variable | $a = 1; $a/=2; | 0.5 |
+| %=        | Incrémentation | Divise la valeur de la variable et affecte le reste à la variable | $a = 1; $a%=2; | 1 |
+| .=        | Concaténation | Concatène la valeur de la variable | $a = 1; $a.=2; | 12 |
+
+Attention à l'ordre des opérateurs, car il peut y avoir des erreurs d'interprétation :
+
+```php
+<?php
+$a = 1;
+echo $a++; // affichera 1
+echo $a; // affichera 2
+echo ++$a; // affichera 3
+echo $a; // affichera 3
+echo $a--; // affichera 3
+echo $a; // affichera 2
+echo --$a; // affichera 1
+echo $a; // affichera 1
+?>
+```
+
+Lien vers les opérateurs d'incrémentation et décrémentation :
+
+https://www.php.net/manual/fr/language.operators.increment.php
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+
+#### Exercices et exemples if - elseif - else
+
+| 11 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 11 | Créez un fichier `11-eau.php` qui affiche suivant une température allant de -100 à 200 °, l'état de l'eau (solide en dessous de 0 compris) (liquide entre 1 et 99°) (gazeux à partir de 100°) : L'eau est solide à -7° - L'eau est liquide à 33 ° - L'eau est gazeuse à 105° |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+
+
+| 12 | ![Exercice 12](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12-info.php` qui affiche la configuration complète du serveur Apache, PHP, SQL ... |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|
+
+
+
+
+| 13 | ![Exercice 13](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-conditions.php` qui affiche suivant un chiffre au hasard entre 0 et 10, vous affiche : Si il est de 0 à 3 : EXACTEMENT : "{chiffre} : Nul, étudie la prochaine fois", Si de 4 à 5 : "{chiffre} : Peut mieux faire" , Si de 6 à 7 : "{chiffre} : Bien", Sinon "{chiffre} : Très bien" |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ---
 
