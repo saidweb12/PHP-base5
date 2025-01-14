@@ -71,5 +71,4 @@ print $monTab[7]."<hr>";
 for($i=0;$i<count($monTab); $i++){
     echo"$monTab[$i]<hr> ";
 }
-//boucle spécialisée dans les tableaux et les objets
-foreach($monTab as $key => $value)>
+
