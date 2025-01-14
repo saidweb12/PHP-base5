@@ -1,4 +1,4 @@
 <?php
-$pr = ["Samuel", "Reda", "Daniel", "J-M", "Sola", "Géraldine", "Jeremy", "Mykyta", "Saïd"];
+$prenoms = ["Samuel", "Reda", "Daniel", "J-M", "Sola", "Géraldine", "Jeremy", "Mykyta", "Saïd"];
 
 var_dump($prenoms);
