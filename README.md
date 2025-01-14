@@ -17,6 +17,7 @@
   - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
   - [Les tableaux](#les-tableaux)
   - [Les tableaux indexés](#les-tableaux-indexés)
+  - [Les tableaux associatifs](#les-tableaux-associatifs)
   - 
 [Function à mettre en liste](#function-à-mettre-en-liste)
   
@@ -490,6 +491,27 @@ echo "<p>Les 3 premiers élèves sont : ".$stagiairesWeb2025[0].", ".$stagiaires
 | 9 | ![Exercice 9](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 9 | Créez un fichier nommé `09-exe-array-index.php` et affichez avec des `echo` les données de la variable `$monTab = ['un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix'];` séparées par un `<hr>` à chaque ligne |
 |---|:---------------------------------------------------------------------------------------------------------:|:----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### Les tableaux associatifs
+
+Les tableaux associatifs sont des tableaux dont les clés sont des chaînes de caractères.
+
+```php
+<?php
+// tableau associatif
+$tab3 = ["clef1" => "valeur1", "clef2" => "valeur2"];
+
+// affichage du tableau via le débugueur var_dump()
+var_dump($tab3);
+// affichera :
+// array(2) { ["clef1"]=> string(7) "valeur1" ["clef2"]=> string(7) "valeur2" }
+?>
+```
 ---
 
 [Retour au menu](#menu-de-navigation)
