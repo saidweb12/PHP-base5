@@ -512,6 +512,11 @@ var_dump($tab3);
 // array(2) { ["clef1"]=> string(7) "valeur1" ["clef2"]=> string(7) "valeur2" }
 ?>
 ```
+
+| 10 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 10 | Créez un fichier nommé `10-exe-array-assoc.php` et affichez avec des `echo` les données de la variable `$monTabAssoc =  ["prenom" => "Michaël", "nom" => "Pitz", "caracteristique" => "égocentrique","dateDeNaissance" => "1951-03-02"];` séparées par un `<hr>` à chaque ligne |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+
+
 ---
 
 [Retour au menu](#menu-de-navigation)
