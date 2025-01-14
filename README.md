@@ -16,6 +16,7 @@
 - [Les variables](#les-variables)
   - [Déclaration de variables non strictement typées](#déclaration-de-variables-non-strictement-typées)
   - [Les tableaux](#les-tableaux)
+  - [Les tableaux indexés](#les-tableaux-indexés)
   - 
 [Function à mettre en liste](#function-à-mettre-en-liste)
   
