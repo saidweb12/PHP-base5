@@ -37,16 +37,16 @@ echo "<p>Les 3 derniers élèves sont : " . $stagiairesWeb2025[12] . ", " . $sta
 // Affichez avec des echos les données de la variable :
 
 $monTab = [
-    'un',
-    'deux',
-    'trois',
-    'quatre',
-    'cinq',
-    'six',
-    'sept',
-    'huit',
-    'neuf',
-    'dix'
+    'un <hr>',
+    'deux <hr>',
+    'trois <hr>',
+    'quatre <hr>',
+    'cinq <hr>',
+    'six <hr>',
+    'sept <hr>',
+    'huit <hr>',
+    'neuf <hr>',
+    'dix <hr>',
 ];
 
 echo "<p>Les éléments du tableau sont : " . $monTab[0] . ", " . $monTab[1] . ", " . $monTab[2] . ", " . $monTab[3] . ", " . $monTab[4] . ", " . $monTab[5] . ", " . $monTab[6] . ", " . $monTab[7] . ", " . $monTab[8] . ", " . $monTab[9] . "</p>";    
