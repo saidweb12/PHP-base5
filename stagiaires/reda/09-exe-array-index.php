@@ -1,18 +1,18 @@
 <?php
 $monTab = [
-  "un <hr>",
-  'deux <hr>',
-  'trois <hr>',
-  'quatre <hr>',
-  'cinq <hr>',
-  'six <hr>',
-  'sept <hr>',
-  'huit <hr>',
-  'neuf <hr>',
-  'dix <hr>',
+  "un ",
+  'deux ',
+  'trois ',
+  'quatre ',
+  'cinq ',
+  'six ',
+  'sept ',
+  'huit ',
+  'neuf ',
+  'dix ',
 ];
 foreach ($monTab as $x) {
-  echo "$x <br>";
+  echo "$x <hr>";
 }
 
 // echo ($monTab[0]);
