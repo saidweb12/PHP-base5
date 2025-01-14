@@ -37,16 +37,44 @@ echo "<p>Les 3 derniers élèves sont : " . $stagiairesWeb2025[12] . ", " . $sta
 // Affichez avec des echos les données de la variable :
 
 $monTab = [
-    'un <hr>',
-    'deux <hr>',
-    'trois <hr>',
-    'quatre <hr>',
-    'cinq <hr>',
-    'six <hr>',
-    'sept <hr>',
-    'huit <hr>',
-    'neuf <hr>',
-    'dix <hr>',
+    'un',
+    'deux',
+    'trois',
+    'quatre',
+    'cinq',
+    'six',
+    'sept',
+    'huit',
+    'neuf',
+    'dix',
 ];
 
-echo "<p>Les éléments du tableau sont : " . $monTab[0] . ", " . $monTab[1] . ", " . $monTab[2] . ", " . $monTab[3] . ", " . $monTab[4] . ", " . $monTab[5] . ", " . $monTab[6] . ", " . $monTab[7] . ", " . $monTab[8] . ", " . $monTab[9] . "</p>";    
+echo "<p>Les éléments du tableau sont : </p>";
+echo $monTab[0] . "<hr>";
+echo $monTab[1] . "<hr>";
+echo $monTab[2] . "<hr>";
+echo $monTab[3] . "<hr>";
+echo $monTab[4] . "<hr>";
+echo $monTab[5] . "<hr>";
+echo $monTab[6] . "<hr>";
+echo $monTab[7] . "<hr>";
+echo $monTab[8] . "<hr>";
+echo $monTab[9] . "<hr>";
+
+
+// Boucle for (iniyialisation; condition; incrémentation)
+
+for ($i = 0; $i < count($monTab); $i++) {
+    echo "<p>Élément n°" . $i . " : " . $monTab[$i] . "</p><hr>";
+}
+
+// Boucle spécialisée dans le tableaux et les objets : foreach
+
+foreach ($monTab as $value) {
+    echo "<p>Élément : " . $value . "</p><hr>";
+}
+
+// Boucle spécialisée dans le tableaux et les objets : foreach avec index
+foreach ($monTab as $key => $value) {
+    echo "$key  $value";
+}
