@@ -618,8 +618,9 @@ var_dump($_GET);
 ?>
 ```
 
-| 12 | ![Exercice 12](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12-GET.php` et modifiez le switch pour afficher votre contenu pour les rubriques : Contact - Livre d'or - Actualités. |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------:|
+| 12 | ![Exercice 12](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12-GET.php` en HTML, puis créez 4 liens qui pointent vers des variables GET différentes |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------:|
+
 
 ---
 
