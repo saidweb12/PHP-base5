@@ -530,6 +530,149 @@ var_dump($tab3);
 
 ---
 
+#### Les tableaux multidimensionnels
+
+Les tableaux multidimensionnels sont des tableaux qui contiennent des tableaux. Ils sont souvent utilisés pour représenter des données complexes.
+
+```php
+<?php
+// tableau multidimensionnel représentant des données de stagiaires web2023
+
+$webdev_2023_2024 = [
+    "WEBDEV01" => [
+        "Nom" => "Tekfi",
+        "Prenom" => "Laura",
+        "Sites" => [
+            "SitePerso" => "https://2023.webdev-cf2m.be/Laura/",
+            "SitePreformation" => "https://2023.webdev-cf2m.be/Laura/prefo/",
+            "github" => "https://github.com/LauraTcf2",
+        ],
+    ],
+    "WEBDEV02" => [
+        "Nom" => "Eliya Bofana",
+        "Prenom" => "Tevin",
+        "Sites" => [
+            "SitePerso" => "https://2023.webdev-cf2m.be/Tevin/",
+            "SitePreformation" => "https://2023.webdev-cf2m.be/Tevin/prefo/",
+            "github" => "https://github.com/Tevin01",
+        ],
+    ],
+    "WEBDEV03" => [
+        "Nom" => "Hoater",
+        "Prenom" => "Simona",
+        "Sites" => [
+            "SitePerso" => "https://2023.webdev-cf2m.be/Simona/",
+            "SitePreformation" => "https://2023.webdev-cf2m.be/Simona/",
+            "github" => "https://github.com/simonaiuliana",
+        ],
+    ],
+    "WEBDEV04" => [
+        "Nom" => "Arpaci",
+        "Prenom" => "Emrah",
+        "Sites" => [
+            "SitePerso" => "https://2023.webdev-cf2m.be/Emrah/",
+            "SitePreformation" => "https://2023.webdev-cf2m.be/Emrah/prefowebsite/",
+            "github" => "https://github.com/hack86bx",
+        ],
+    ],
+    // ... etc
+];
+
+var_dump($webdev_2023_2024);
+
+```
+
+| 22 | ![Exercice 22](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 22 | Créez un fichier nommé `22-exe-array-multi.php` et affichez avec un `echo` les données de la variable `$webdev_2023_2024` ci dessus pour nous afficher le Github de Laura |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+## Les variables superglobales
+
+Les variables superglobales sont des variables prédéfinies qui sont toujours accessibles, quel que soit le contexte.
+
+En PHP, les variables superglobales sont des tableaux associatifs.
+
+https://www.php.net/manual/fr/language.variables.superglobals.php
+
+### $_GET
+
+`$_GET` est une variable superglobale qui est utilisée pour collecter des données de formulaires, après avoir envoyé un formulaire avec la méthode "get".
+
+**On l'utilise surtout pour récupérer des données dans l'URL.**
+
+La manière d'écrire des variables get dans l'URL est la suivante : `?section=contact&page=3&nom=dupont`
+
+```php
+<?php
+// affiche le contenu de la variable superglobale $_GET
+var_dump($_GET);
+?>
+```
+
+| 13 | ![Exercice 13](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-GET.php` et modifiez le switch pour afficher votre contenu pour les rubriques : Contact - Livre d'or - Actualités.  |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------:|
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+## Les constantes
+
+Une constante est un identifiant (un nom) qui représente une valeur simple. Comme son nom l'indique, cette valeur ne peut pas changer durant l'exécution du script (sauf pour les constantes magiques qui changent à chaque fois).
+
+Une constante est définie avec la fonction `define()` ou avec l'opérateur `const`.
+
+Une fois qu'une constante est définie, elle ne peut pas être modifiée ou supprimée !
+
+Les constantes sont utiles pour stocker des informations qui ne changent pas tout au long de l'exécution du script, comme la version du script ou le nom d'un auteur.
+
+**Les paramètres de configuration sont souvent stockés dans des constantes !**
+
+Les constantes sont **globales**. Elles peuvent être utilisées dans toute la page. Attention en orienté objet, les constantes de classe sont définies dans la classe et sont donc accessibles autrement.
+
+Les bonnes pratiques principales de nommage des constantes sont les suivantes :
+
+- Les constantes sont écrites en majuscules.
+- Les constantes sont écrites en snake_case.
+
+
+Avec define() :
+
+```php  
+<?php
+// Définition de la constante avec define()
+define("NOM_DE_LA_CONSTANTE", "valeur de la constante");
+
+// Affichage de la constante
+echo NOM_DE_LA_CONSTANTE;
+?>
+```
+
+Avec const :
+
+```php
+<?php
+// Définition de la constante avec const
+const NOM_DE_LA_CONSTANTE = "valeur de la constante";
+
+// Affichage de la constante
+echo NOM_DE_LA_CONSTANTE;
+?>
+```
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
 ### Les conditions
 
 Les conditions sont la deuxième brique fondamentale d'un langage de programmation, elles permettent d'évaluer l'état de propositions, de variables, etc.
