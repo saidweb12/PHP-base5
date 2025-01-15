@@ -536,54 +536,54 @@ Les tableaux multidimensionnels sont des tableaux qui contiennent des tableaux. 
 
 ```php
 <?php
-// tableau multidimensionnel représentant des données de stagiaires web2023
+// tableau multidimensionnel représentant des données de quelques stagiaires web2025
 
-$webdev_2023_2024 = [
+$webdev_2025 = [
     "WEBDEV01" => [
-        "Nom" => "Tekfi",
-        "Prenom" => "Laura",
+        "Nom" => "Dahmani",
+        "Prenom" => "Reda",
         "Sites" => [
-            "SitePerso" => "https://2023.webdev-cf2m.be/Laura/",
-            "SitePreformation" => "https://2023.webdev-cf2m.be/Laura/prefo/",
-            "github" => "https://github.com/LauraTcf2",
+            "SitePerso" => "https://2025.webdev-cf2m.be/reda/",
+            "SitePreformation" => "https://2025.webdev-cf2m.be/reda/prefo/",
+            "github" => "https://github.com/redasnkrs",
         ],
     ],
     "WEBDEV02" => [
-        "Nom" => "Eliya Bofana",
-        "Prenom" => "Tevin",
+        "Nom" => "Darry",
+        "Prenom" => "Samuel",
         "Sites" => [
-            "SitePerso" => "https://2023.webdev-cf2m.be/Tevin/",
-            "SitePreformation" => "https://2023.webdev-cf2m.be/Tevin/prefo/",
-            "github" => "https://github.com/Tevin01",
+            "SitePerso" => "https://2025.webdev-cf2m.be/samuel/",
+            "SitePreformation" => "https://2025.webdev-cf2m.be/samuel/prefo/",
+            "github" => "https://github.com/Eultype",
         ],
     ],
     "WEBDEV03" => [
-        "Nom" => "Hoater",
-        "Prenom" => "Simona",
+        "Nom" => "Farah",
+        "Prenom" => "Said",
         "Sites" => [
-            "SitePerso" => "https://2023.webdev-cf2m.be/Simona/",
-            "SitePreformation" => "https://2023.webdev-cf2m.be/Simona/",
-            "github" => "https://github.com/simonaiuliana",
+            "SitePerso" => "https://2025.webdev-cf2m.be/said/",
+            "SitePreformation" => "https://2025.webdev-cf2m.be/said/prefo/",
+            "github" => "https://github.com/saidweb12",
         ],
     ],
     "WEBDEV04" => [
-        "Nom" => "Arpaci",
-        "Prenom" => "Emrah",
+        "Nom" => "Horban",
+        "Prenom" => "Mykyta",
         "Sites" => [
-            "SitePerso" => "https://2023.webdev-cf2m.be/Emrah/",
-            "SitePreformation" => "https://2023.webdev-cf2m.be/Emrah/prefowebsite/",
-            "github" => "https://github.com/hack86bx",
+            "SitePerso" => "https://2025.webdev-cf2m.be/mykyta/",
+            "SitePreformation" => "https://2025.webdev-cf2m.be/mykyta/prefo/",
+            "github" => "https://github.com/NikGorban",
         ],
     ],
     // ... etc
 ];
 
-var_dump($webdev_2023_2024);
+var_dump($webdev_2025);
 
 ```
 
-| 22 | ![Exercice 22](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 22 | Créez un fichier nommé `22-exe-array-multi.php` et affichez avec un `echo` les données de la variable `$webdev_2023_2024` ci dessus pour nous afficher le Github de Laura |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| 11 | ![Exercice 11](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 11 | Créez un fichier nommé `11-exe-array-multi.php` et affichez avec un `echo` les données de la variable `$webdev_2025` ci dessus pour nous afficher le Github de `Mykyta` |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
 
 ---
 
@@ -614,8 +614,8 @@ var_dump($_GET);
 ?>
 ```
 
-| 13 | ![Exercice 13](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-GET.php` et modifiez le switch pour afficher votre contenu pour les rubriques : Contact - Livre d'or - Actualités.  |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------:|
+| 12 | ![Exercice 12](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12-GET.php` et modifiez le switch pour afficher votre contenu pour les rubriques : Contact - Livre d'or - Actualités. |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------:|
 
 ---
 
@@ -886,18 +886,18 @@ https://www.php.net/manual/fr/language.operators.increment.php
 
 #### Exercices et exemples if - elseif - else
 
-| 11 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 11 | Créez un fichier `11-eau.php` qui affiche suivant une température allant de -100 à 200 °, l'état de l'eau (solide en dessous de 0 compris) (liquide entre 1 et 99°) (gazeux à partir de 100°) : L'eau est solide à -7° - L'eau est liquide à 33 ° - L'eau est gazeuse à 105° |
+| 13 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-eau.php` qui affiche suivant une température allant de -100 à 200 °, l'état de l'eau (solide en dessous de 0 compris) (liquide entre 1 et 99°) (gazeux à partir de 100°) : L'eau est solide à -7° - L'eau est liquide à 33 ° - L'eau est gazeuse à 105° |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 
 
-| 12 | ![Exercice 12](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12-info.php` qui affiche la configuration complète du serveur Apache, PHP, SQL ... |
+| 14 | ![Exercice 14](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 14 | Créez un fichier `12-info.php` qui affiche la configuration complète du serveur Apache, PHP, SQL ... |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|
 
 
 
 
-| 13 | ![Exercice 13](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-conditions.php` qui affiche suivant un chiffre au hasard entre 0 et 10, vous affiche : Si il est de 0 à 3 : EXACTEMENT : "{chiffre} : Nul, étudie la prochaine fois", Si de 4 à 5 : "{chiffre} : Peut mieux faire" , Si de 6 à 7 : "{chiffre} : Bien", Sinon "{chiffre} : Très bien" |
+| 15 | ![Exercice 15](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 15 | Créez un fichier `15-conditions.php` qui affiche suivant un chiffre au hasard entre 0 et 10, vous affiche : Si il est de 0 à 3 : EXACTEMENT : "{chiffre} : Nul, étudie la prochaine fois", Si de 4 à 5 : "{chiffre} : Peut mieux faire" , Si de 6 à 7 : "{chiffre} : Bien", Sinon "{chiffre} : Très bien" |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ---
