@@ -12,5 +12,3 @@ $stagiaires = array(
 );
 print_r($stagiaires);
 
-
-?>
