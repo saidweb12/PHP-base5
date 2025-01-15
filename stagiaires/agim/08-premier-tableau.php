@@ -1,10 +1,7 @@
 <?php 
 
-// Tableau indexé
-$voitures = array("Volvo", "BMW", "Toyota");
-// Tableau indexé en raccourci
-$langages = ["PHP", "MySQL", "JavaScript"];
-// affichage des tableaux via le débugueur var_dump()
-var_dump($voitures, $langages);
+$classe = array("Agim", "Omer", "Massine", "Loukas", "Soulaiman", "Nordine", "Vahagn");
+
+var_dump($classe);
 
 ?>
