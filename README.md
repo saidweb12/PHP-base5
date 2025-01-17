@@ -26,6 +26,7 @@
     - [if](#if)
     - [else](#else)
     - [elseif() ou else if()](#elseif-ou-else-if)
+    - [Exercices et exemples if - elseif - else](#exercices-et-exemples-if---elseif---else)
     - [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
     - [Les opérateurs logiques](#les-opérateurs-logiques)
     - [Les opérateurs d'affectation](#les-opérateurs-daffectation)
@@ -538,6 +539,9 @@ var_dump($tab3);
 
 Les tableaux multidimensionnels sont des tableaux qui contiennent des tableaux. Ils sont souvent utilisés pour représenter des données complexes.
 
+Pour accéder à un élément d'un tableau multidimensionnel, nous devons spécifier l'index de chaque tableau entre crochets.
+
+
 ```php
 <?php
 // tableau multidimensionnel représentant des données de quelques stagiaires web2025
@@ -686,7 +690,7 @@ Les conditions sont la deuxième brique fondamentale d'un langage de programmati
 
 `if(condition) { action si condition == true }`
 
-Le **if** va permettre de vérifier si une condition est vraie (true)
+Le **if** va permettre de vérifier si une condition est vraie (true) :
 
 ```php
 $a = true;
@@ -736,6 +740,28 @@ if($a==0){
   echo "Magnifique, tu gagnes encore 2 points";
 }
 ```
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+#### Exercices et exemples if - elseif - else
+
+| 13 | ![Exercice 13](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-eau.php` qui affiche suivant une température allant de -100 à 200 °, l'état de l'eau (solide en dessous de 0 compris) (liquide entre 1 et 99°) (gazeux à partir de 100°) : L'eau est solide à -7° - L'eau est liquide à 33 ° - L'eau est gazeuse à 105° |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+
+
+| 14 | ![Exercice 14](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 14 | Créez un fichier `14-pair.php` Une variable donne un numérique au hasard entre 1 et 20, si il est pair affichez 'Le nombre est pair.', sinon 'le nombre est impair.'  ... |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+                                                                                                                    
+
+
+
+| 15 | ![Exercice 15](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 15 | Créez un fichier `15-conditions.php` qui affiche suivant un chiffre au hasard entre 0 et 10, vous affiche : Si il est de 0 à 3 : EXACTEMENT : "{chiffre} : Nul, étudie la prochaine fois", Si de 4 à 5 : "{chiffre} : Peut mieux faire" , Si de 6 à 7 : "{chiffre} : Bien", Sinon "{chiffre} : Très bien" |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ---
 
@@ -889,30 +915,10 @@ https://www.php.net/manual/fr/language.operators.increment.php
 ---
 
 
-#### Exercices et exemples if - elseif - else
 
-| 13 | ![Exercice 10](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 13 | Créez un fichier `13-eau.php` qui affiche suivant une température allant de -100 à 200 °, l'état de l'eau (solide en dessous de 0 compris) (liquide entre 1 et 99°) (gazeux à partir de 100°) : L'eau est solide à -7° - L'eau est liquide à 33 ° - L'eau est gazeuse à 105° |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
-
-
-| 14 | ![Exercice 14](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 14 | Créez un fichier `12-info.php` qui affiche la configuration complète du serveur Apache, PHP, SQL ... |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|
-
-
-
-
-| 15 | ![Exercice 15](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 15 | Créez un fichier `15-conditions.php` qui affiche suivant un chiffre au hasard entre 0 et 10, vous affiche : Si il est de 0 à 3 : EXACTEMENT : "{chiffre} : Nul, étudie la prochaine fois", Si de 4 à 5 : "{chiffre} : Peut mieux faire" , Si de 6 à 7 : "{chiffre} : Bien", Sinon "{chiffre} : Très bien" |
-|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
----
-
-[Retour au menu](#menu-de-navigation)
-
----
 
 ## Function à mettre en liste
-echo, var_dump(), count(),
+echo, var_dump(), count(), if, else, elseif
 
 en cours de création : https://listphp8.cf2m.be/
 ---
