@@ -914,6 +914,7 @@ https://www.php.net/manual/fr/language.operators.increment.php
 ## Function à mettre en liste
 echo, var_dump(), count(),
 
+en cours de création : https://listphp8.cf2m.be/
 ---
 
 [Retour au menu](#menu-de-navigation)
