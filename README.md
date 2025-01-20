@@ -1143,7 +1143,7 @@ do{
 
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif
+echo, var_dump(), count(), if, else, elseif, isset, empty()
 
 en cours de création : https://listphp8.cf2m.be/
 ---
