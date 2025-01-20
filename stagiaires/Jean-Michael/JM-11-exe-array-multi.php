@@ -36,6 +36,11 @@ $webdev_2025 = [
             "SitePerso" => "https://2025.webdev-cf2m.be/mykyta/",
             "SitePreformation" => "https://2025.webdev-cf2m.be/mykyta/prefo/",
             "github" => "https://github.com/NikGorban",
+            [
+                "un",
+                "deux",
+                "troi",
+            ]
         ],
     ],
     // ... etc
