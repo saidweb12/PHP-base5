@@ -30,11 +30,11 @@
     - [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
     - [Les opérateurs logiques](#les-opérateurs-logiques)
     - [Les opérateurs d'affectation](#les-opérateurs-daffectation)
-    - [Les boucles](#les-boucles)
-      - [for](#for)
-      - [foreach](#foreach)
-      - [while](#while)
-      - [do while](#do-while)
+  - [Les boucles](#les-boucles)
+    - [for](#for)
+    - [foreach](#foreach)
+    - [while](#while)
+    - [do while](#do-while)
   - 
 [Function à mettre en liste](#function-à-mettre-en-liste)
   
