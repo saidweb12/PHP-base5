@@ -30,6 +30,11 @@
     - [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
     - [Les opérateurs logiques](#les-opérateurs-logiques)
     - [Les opérateurs d'affectation](#les-opérateurs-daffectation)
+    - [Les boucles](#les-boucles)
+      - [for](#for)
+      - [foreach](#foreach)
+      - [while](#while)
+      - [do while](#do-while)
   - 
 [Function à mettre en liste](#function-à-mettre-en-liste)
   
@@ -914,6 +919,226 @@ https://www.php.net/manual/fr/language.operators.increment.php
 
 ---
 
+## Les boucles
+
+Les boucles permettent de répéter des instructions un certain nombre de fois. Il existe plusieurs types de boucles en PHP.
+
+Un grand principe des boucles est de répéter des instructions tant qu'une condition est vraie. Elles ne doivent pas être infinies, sinon le serveur finira par planter.
+
+Les boucles sont très utiles pour parcourir des tableaux, des objets, des fichiers, des dossiers, des bases de données, etc...
+
+Les fonctions natives (ou structure de langage) en PHP pour faire des boucles sont :
+
+- `while`
+- `do while`
+- `for`
+- `foreach`
+
+Les fonctions récursives sont également des boucles, mais nous les verrons plus tard.
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+
+### for
+
+La boucle `for` est la plus structurée, elle permet de répéter des instructions un certain nombre de fois. Elle est composée de 3 parties :
+
+- l'initialisation de la variable de boucle
+- la condition de sortie de boucle liée à la variable de boucle
+- l'incrémentation (ou décrémentation) de la variable de boucle
+
+On exécute les instructions entre les accolades tant que la condition de sortie de boucle est vraie.
+
+```php
+for(initialisation; condition de sortie de boucle; incrémentation){
+  // instructions
+}
+```
+
+
+
+```php
+<?php
+
+for(
+    // on initialise la variable $i à 0 (premier tour de boucle)
+    $i=0;
+    // on définit la condition de sortie de boucle (vérifiée à chaque tour de boucle)
+    $i<=10;
+    // on incrémente $i de 1 à chaque tour de boucle (dernière action du tour de boucle)
+    $i++
+){
+    echo "$i ";
+}
+// Affiche : 0 1 2 3 4 5 6 7 8 9 10
+?>
+```
+
+| 16 | ![Exercice 16](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 16 | Créez une copie du fichier `16-boucle-for.php` dans votre espace stagiaire, puis créez les boucles for telles qu'indiquées dans les commentaires |
+|---|:----------------------------------------------------------------------------------------------------------:|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+Le résultat de l'exercice 25 devrait ressembler à ceci :
+
+![exercice 25](https://raw.githubusercontent.com/WebDevCF2m2023/PHP-base/main/datas/screenshot-php-base_8080-2024.01.09-15_54_20.png)
+
+--- 
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+### foreach
+
+La boucle `foreach` est la plus utilisée, elle permet de parcourir un tableau ou un objet.
+
+Elle est composée de 2 parties minimum :
+
+- la variable qui contient le tableau ou l'objet à parcourir
+- la variable qui contient la valeur de l'élément du tableau ou de l'objet à chaque tour de boucle
+
+```php
+foreach($tableau as $element){
+  // instructions
+}
+```
+
+```php
+<?php
+
+$fruits = ['pomme', 'poire', 'banane', 'fraise', 'cerise'];
+
+foreach($fruits as $fruit){
+    echo "$fruit ";
+}
+// Affiche : pomme poire banane fraise cerise
+?>
+```
+
+On peut également récupérer la clé de chaque élément du tableau ou de l'objet à chaque tour de boucle.
+
+```php
+foreach($tableau as $clef => $element){
+  // instructions
+}
+```
+
+```php
+<?php
+
+$fruits = ['pomme', 'poire', 'banane', 'fraise', 'cerise'];
+
+foreach($fruits as $clef => $fruit){
+    echo "$clef : $fruit ";
+}
+// Affiche : 0 : pomme 1 : poire 2 : banane 3 : fraise 4 : cerise
+?>
+```
+
+| 17 | ![Exercice 17](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 17 | Créez une copie du fichier `17-boucle-foreach.php` et `array.php` dans votre espace stagiaire, puis créez les boucles foreach telles qu'indiquées dans les commentaires |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+Le résultat de l'exercice 17 devrait ressembler à ceci :
+
+![exercice 17](https://raw.githubusercontent.com/WebDevCF2m2023/PHP-base/main/datas/screenshot-php-base-2023-2024-2024.01.11-20_24_37.png)
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+--- 
+
+### while
+
+La boucle `while` permet de répéter des instructions tant qu'une condition est vraie. C'est la boucle la plus simple et la plus souple.
+
+Attention, si la condition est toujours `true`, la boucle sera infinie et le serveur finira par planter.
+
+```php
+while(condition){
+  // instructions
+}
+```
+
+```php
+<?php
+
+$i = 0;
+
+while($i<=10){
+    echo "$i ";
+    $i++;
+}
+// Affiche : 0 1 2 3 4 5 6 7 8 9 10
+?>
+```
+
+| 18 | ![Exercice 18](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 18 | Créez une copie du fichier `18-boucle-while.php`  dans votre espace stagiaire, puis créez les boucles while telles qu'indiquées dans les commentaires |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|  
+
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+--- 
+
+### do while
+
+La boucle `do while` est similaire à la boucle `while`, mais elle exécute les instructions au moins une fois, même si la condition est fausse.
+
+Attention, si la condition est toujours `true`, la boucle sera infinie et le serveur finira par planter.
+
+```php
+do{
+  // instructions
+}while(condition);
+```
+
+```php
+
+$i = 0;
+
+do{
+    echo "$i ";
+    $i++;
+}while($i<=10);
+// Affiche : 0 1 2 3 4 5 6 7 8 9 10
+
+// même si la condition est fausse, les instructions sont exécutées au moins une fois
+$page = 1;
+$pageNb = 1;
+echo "Page";
+do{
+    echo " $page";
+    $page++;
+}while($page<=$pageNb);
+// Affiche : Page 1
+
+echo "<br>";
+
+// si on a plus de pages :
+$page = 1;
+$pageNb = 4;
+echo "Page";
+do{
+    echo " $page";
+    $page++;
+}while($page<=$pageNb);
+// Affiche : Page 1 2 3 4
+
+?>
+```
+
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+--- 
 
 
 
