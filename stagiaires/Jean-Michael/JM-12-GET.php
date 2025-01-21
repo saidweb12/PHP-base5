@@ -9,9 +9,10 @@
     <nav>
         <a href="JM-12-GET.php">Accueil</a>
         <a href="?p=1">PageUne</a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="?p=2">PageDeux</a>
+        <a href="?p=3">PageTrois</a>
+        <a href="?p=4&titre=contact">Contact</a>
+        <a href="?p=5&titre=contacts&temps=pasmal&t=25">Contacts</a>
     </nav>
 <?php
 // affiche le contenu de la variable superglobale $_GET
