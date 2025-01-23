@@ -1401,7 +1401,7 @@ require_once("menu.php");
 ---
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif, isset, empty()
+echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r()
 
 En cours de création : https://listphp8.cf2m.be/
 
