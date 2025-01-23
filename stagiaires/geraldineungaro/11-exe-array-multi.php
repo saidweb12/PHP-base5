@@ -43,4 +43,5 @@ $webdev_2025 = [
 
 echo $webdev_2025["WEBDEV04"]["Prenom"];
 echo "<br/>",$webdev_2025["WEBDEV04"]["Nom"][2];
+echo "<br/>",$webdev_2025["WEBDEV04"]["Sites"]["github"];
 var_dump($webdev_2025);

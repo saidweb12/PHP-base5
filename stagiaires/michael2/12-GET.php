@@ -8,7 +8,7 @@
 <body>
     <nav>
         <a href="12-GET.php">Accueil</a> |
-        <a href="?p=1">Page 1</a> |
+        <a href="12-GET.php?p=1">Page 1</a> |
         <a href="?p=2">Page 2</a> |
         <a href="?p=3">Page 3</a> |
         <a href="?p=4&titre=contact">Contact</a> |
