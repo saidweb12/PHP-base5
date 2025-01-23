@@ -1403,6 +1403,8 @@ require_once("menu.php");
 ## Function à mettre en liste
 echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r()
 
+imprimer https://github.com/WebDevCF2m2025/prefo-git-c1/blob/main/files/github-git-cheat-sheet.pdf
+
 En cours de création : https://listphp8.cf2m.be/
 
 
