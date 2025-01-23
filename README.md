@@ -921,8 +921,8 @@ switch($hasard1){
 
 ```
 
-| 12b | ![Exercice 12b](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 12 | Créez un fichier `12b-switch.php` qui affiche EXACTEMENT l'exercice 11 en utilisant un switch |
-|-----|:-----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------:|
+| 15b | ![Exercice 15b](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 15b | Créez un fichier `15b-switch.php` qui affiche EXACTEMENT l'exercice 15 en utilisant un switch |
+|-----|:-----------------------------------------------------------------------------------------------------------:|:------------:|:---------------------------------------------------------------------------------------------:|
 
 ---
 
