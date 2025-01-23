@@ -42,9 +42,9 @@
   - [require](#require)
   - [include_once](#include_once)
   - [require_once](#require_once)
-  - 
-[Function à mettre en liste](#function-à-mettre-en-liste)
-  
+
+
+! [Function à mettre en liste](#function-à-mettre-en-liste) !
 
 
 
@@ -1403,7 +1403,9 @@ require_once("menu.php");
 ## Function à mettre en liste
 echo, var_dump(), count(), if, else, elseif, isset, empty()
 
-en cours de création : https://listphp8.cf2m.be/
+En cours de création : https://listphp8.cf2m.be/
+
+
 ---
 
 [Retour au menu](#menu-de-navigation)
