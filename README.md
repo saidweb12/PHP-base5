@@ -985,19 +985,19 @@ https://www.php.net/manual/fr/language.operators.logical.php
 
 Les opérateurs d'affectation permettent d'affecter une valeur à une variable.
 
-| Opérateur | Description | Détails                                                                                                   |
-|-----------|-------------|-----------------------------------------------------------------------------------------------------------|
-| =         | Affectation | Affecte une valeur à une variable                                                                          |
-| +=        | Affectation et addition | Ajoute la valeur à la variable et affecte le résultat à la variable |
-| -=        | Affectation et soustraction | Soustrait la valeur à la variable et affecte le résultat à la variable |
+| Opérateur | Description                   | Détails                                                                |
+|-----------|-------------------------------|------------------------------------------------------------------------|
+| =         | Affectation                   | Affecte une valeur à une variable                                      |
+| +=        | Affectation et addition       | Ajoute la valeur à la variable et affecte le résultat à la variable    |
+| -=        | Affectation et soustraction   | Soustrait la valeur à la variable et affecte le résultat à la variable |
 | *=        | Affectation et multiplication | Multiplie la valeur à la variable et affecte le résultat à la variable |
-| /=        | Affectation et division | Divise la valeur à la variable et affecte le résultat à la variable |
-| %=        | Affectation et modulo | Divise la valeur à la variable et affecte le reste à la variable |
-| .=        | Affectation et concaténation | Concatène la valeur à la variable et affecte le résultat à la variable |
+| /=        | Affectation et division       | Divise la valeur à la variable et affecte le résultat à la variable    |
+| %=        | Affectation et modulo         | Divise la valeur à la variable et affecte le reste à la variable       |
+| .=        | Affectation et concaténation  | Concatène la valeur à la variable et affecte le résultat à la variable |
 
 ##### +=
 
-équivaut à "ajouter à la valeur de"
+Équivaut à "ajouter à la valeur de"
 
 ```php
 $a=1;
@@ -1141,7 +1141,7 @@ for(
 ```
 
 | 16 | ![Exercice 16](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 16 | Créez une copie du fichier `16-boucle-for.php` dans votre espace stagiaire, puis créez les boucles for telles qu'indiquées dans les commentaires |
-|---|:----------------------------------------------------------------------------------------------------------:|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 Le résultat de l'exercice 25 devrait ressembler à ceci :
 
