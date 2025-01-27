@@ -17,22 +17,24 @@
 
 </html>
 <?php
-if (!is_numeric($_POST["temp"])) {
-  echo "Veuillez introduire un chiffre";
+if (isset($_POST["temp"])) {
+  if (!is_numeric($_POST["temp"])) {
+    echo "Veuillez introduire un chiffre";
+  }
+
+  if ($_POST["temp"] < -100 || $_POST["temp"] > 200) {
+    echo "Veuillez introduire un chiffre entre -100 ou 200";
+  }
+
+  if ($_POST["temp"] <= 0) {
+    echo "l'état de l'eau est solid";
+  } elseif ($_POST["temp"] < 100) {
+    echo "l'état de l'eau est liquide";
+  } else {
+    echo "l'état de l'eau est gazeuse";
+  }
 }
 
-if ($_POST["temp"] < -100 || $_POST["temp"] > 200) {
-  echo "Veuillez introduire un chiffre entre -100 ou 200";
-}
 
-if ($_POST["temp"] <= 0) {
-  echo "l'état de l'eau est solid";
-} elseif ($_POST["temp"] < 100) {
-  echo "l'état de l'eau est liquide";
-} else {
-  echo "l'état de l'eau est gazeuse";
-}
-// echo $_POST["temp"] . "<br>";
-// echo is_numeric($_POST["temp"]);
 
 ?>
