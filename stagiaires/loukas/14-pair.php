@@ -10,7 +10,7 @@
 <body>
   <form method="post">
     <label for="number">Introduisez un nombre entre 1 et 20</label></br>
-    <input type="text" id="number" name="number" id="number" require>
+    <input type="text" id="number" name="number" require>
     <button type="submit">Envoyé</button>
   </form>
 </body>
