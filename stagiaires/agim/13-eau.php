@@ -1,5 +1,5 @@
 <?php
-$temperature = 100;
+$temperature = random_int(-100, 200);
 
 if ($temperature <= 0) {
     echo ("L'eau est solide à $temperature °");
@@ -8,5 +8,3 @@ if ($temperature <= 0) {
 } else {
     echo ("L'eau est gazeuse à $temperature °");
 }
-
-echo $temperature;
