@@ -1,4 +1,3 @@
-<?php
 $a = mt_rand(0, 10);
 
 switch(true) {
