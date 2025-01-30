@@ -1400,6 +1400,15 @@ require_once("menu.php");
 
 ---
 
+| 19 | ![Exercice 19](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 19 | En partant du dossier `19`  dans votre espace stagiaire, |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------:| 
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
 ## Function à mettre en liste
 echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r()
 
