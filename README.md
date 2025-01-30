@@ -1400,6 +1400,7 @@ require_once("menu.php");
 
 ---
 
+
 | 19 | ![Exercice 19](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 19 | Copiez les dossiers `formateur\19-recap-pierre` et `formateur\19-recap-CF` dans votre dossier stagiaire. Immitez le site `formateur\19-recap-pierre` en créant une navigation par contrôleur frontal (il se trouve dans `formateur\19-recap-CF\public`) => 1 seule page, et une navigation par une variable de type `$_GET`, qui va chercher les pages dans `formateur\19-recap-CF\view` suivant le lien cliqué. |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------:| 
 
