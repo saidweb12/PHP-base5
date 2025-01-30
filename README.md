@@ -963,10 +963,10 @@ Les opérateurs logiques permettent de combiner plusieurs conditions.
 
 | Opérateur | Description | Détails                                                                                                   |
 |-----------|-------------|-----------------------------------------------------------------------------------------------------------|
-| and       | ET          | toutes les conditions doivent être vraies                                                                 |
-| or        | OU          | Une des conditions doit être vraie                                                                        |
-| xor       | OU exclusif | Une des conditions doit être vraie, mais pas les deux, peu utilisé sans () car peut provoquer des erreurs |
-| !         | NON         | Inverse la condition (true devient false - false devient true)                                            |
+| and  &&   | ET          | toutes les conditions doivent être vraies                                                                 |
+| or  \|\|  | OU          | Une des conditions doit être vraie                                                                        |
+| xor   ^   | OU exclusif | Une des conditions doit être vraie, mais pas les deux, peu utilisé sans () car peut provoquer des erreurs |
+| !         | NON  Not    | Inverse la condition (true devient false - false devient true)                                            |
 
 
 Lien vers les opérateurs logiques :
