@@ -1044,16 +1044,16 @@ https://www.php.net/manual/fr/language.operators.assignment.php
 
 Les opérateurs d'incrémentation et décrémentation permettent d'augmenter ou diminuer la valeur d'une variable. Ce sont donc des opérateurs d'affectation également.
 
-| Opérateur | Description | Détails                                                                                                   | Exemple | Résultat |  
-|-----------|-------------|-----------------------------------------------------------------------------------------------------------|---------|----------|
-| ++        | Incrémentation | Incrémente la valeur de 1 | $a = 1; $a++; | 2 |        
-| --        | Décrémentation | Décrémente la valeur de 1 | $a = 1; $a--; | 0 |
-| +=        | Incrémentation | Incrémente la valeur de la variable | $a = 1; $a+=2; | 3 |
-| -=        | Décrémentation | Décrémente la valeur de la variable | $a = 1; $a-=2; | -1 |
-| *=        | Incrémentation | Multiplie la valeur de la variable | $a = 1; $a*=2; | 2 |
-| /=        | Décrémentation | Divise la valeur de la variable | $a = 1; $a/=2; | 0.5 |
-| %=        | Incrémentation | Divise la valeur de la variable et affecte le reste à la variable | $a = 1; $a%=2; | 1 |
-| .=        | Concaténation | Concatène la valeur de la variable | $a = 1; $a.=2; | 12 |
+| Opérateur | Description    | Détails                                                           | Exemple        | Résultat |  
+|-----------|----------------|-------------------------------------------------------------------|----------------|----------|
+| ++        | Incrémentation | Incrémente la valeur de 1                                         | $a = 1; $a++;  | 2        |        
+| --        | Décrémentation | Décrémente la valeur de 1                                         | $a = 1; $a--;  | 0        |
+| +=        | Incrémentation | Incrémente la valeur de la variable                               | $a = 1; $a+=2; | 3        |
+| -=        | Décrémentation | Décrémente la valeur de la variable                               | $a = 1; $a-=2; | -1       |
+| *=        | Incrémentation | Multiplie la valeur de la variable                                | $a = 1; $a*=2; | 2        |
+| /=        | Décrémentation | Divise la valeur de la variable                                   | $a = 1; $a/=2; | 0.5      |
+| %=        | Incrémentation | Divise la valeur de la variable et affecte le reste à la variable | $a = 1; $a%=2; | 1        |
+| .=        | Concaténation  | Concatène la valeur de la variable                                | $a = 1; $a.=2; | 12       |
 
 Attention à l'ordre des opérateurs, car il peut y avoir des erreurs d'interprétation :
 
@@ -1401,7 +1401,7 @@ require_once("menu.php");
 ---
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r()
+echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r(), switch(), inclusions (include, include_once, require_require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date()
 
 imprimer https://github.com/WebDevCF2m2025/prefo-git-c1/blob/main/files/github-git-cheat-sheet.pdf
 
