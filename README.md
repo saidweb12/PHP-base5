@@ -1044,16 +1044,16 @@ https://www.php.net/manual/fr/language.operators.assignment.php
 
 Les opérateurs d'incrémentation et décrémentation permettent d'augmenter ou diminuer la valeur d'une variable. Ce sont donc des opérateurs d'affectation également.
 
-| Opérateur | Description | Détails                                                                                                   | Exemple | Résultat |  
-|-----------|-------------|-----------------------------------------------------------------------------------------------------------|---------|----------|
-| ++        | Incrémentation | Incrémente la valeur de 1 | $a = 1; $a++; | 2 |        
-| --        | Décrémentation | Décrémente la valeur de 1 | $a = 1; $a--; | 0 |
-| +=        | Incrémentation | Incrémente la valeur de la variable | $a = 1; $a+=2; | 3 |
-| -=        | Décrémentation | Décrémente la valeur de la variable | $a = 1; $a-=2; | -1 |
-| *=        | Incrémentation | Multiplie la valeur de la variable | $a = 1; $a*=2; | 2 |
-| /=        | Décrémentation | Divise la valeur de la variable | $a = 1; $a/=2; | 0.5 |
-| %=        | Incrémentation | Divise la valeur de la variable et affecte le reste à la variable | $a = 1; $a%=2; | 1 |
-| .=        | Concaténation | Concatène la valeur de la variable | $a = 1; $a.=2; | 12 |
+| Opérateur | Description    | Détails                                                           | Exemple        | Résultat |  
+|-----------|----------------|-------------------------------------------------------------------|----------------|----------|
+| ++        | Incrémentation | Incrémente la valeur de 1                                         | $a = 1; $a++;  | 2        |        
+| --        | Décrémentation | Décrémente la valeur de 1                                         | $a = 1; $a--;  | 0        |
+| +=        | Incrémentation | Incrémente la valeur de la variable                               | $a = 1; $a+=2; | 3        |
+| -=        | Décrémentation | Décrémente la valeur de la variable                               | $a = 1; $a-=2; | -1       |
+| *=        | Incrémentation | Multiplie la valeur de la variable                                | $a = 1; $a*=2; | 2        |
+| /=        | Décrémentation | Divise la valeur de la variable                                   | $a = 1; $a/=2; | 0.5      |
+| %=        | Incrémentation | Divise la valeur de la variable et affecte le reste à la variable | $a = 1; $a%=2; | 1        |
+| .=        | Concaténation  | Concatène la valeur de la variable                                | $a = 1; $a.=2; | 12       |
 
 Attention à l'ordre des opérateurs, car il peut y avoir des erreurs d'interprétation :
 
@@ -1400,7 +1400,8 @@ require_once("menu.php");
 
 ---
 
-| 19 | ![Exercice 19](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 19 | En partant du dossier `19`  dans votre espace stagiaire, |
+
+| 19 | ![Exercice 19](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 19 | Copiez les dossiers `formateur\19-recap-pierre` et `formateur\19-recap-CF` dans votre dossier stagiaire. Immitez le site `formateur\19-recap-pierre` en créant une navigation par contrôleur frontal (il se trouve dans `formateur\19-recap-CF\public`) => 1 seule page, et une navigation par une variable de type `$_GET`, qui va chercher les pages dans `formateur\19-recap-CF\view` suivant le lien cliqué. |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------:| 
 
 ---
@@ -1410,7 +1411,7 @@ require_once("menu.php");
 ---
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r()
+echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r(), switch(), inclusions (include, include_once, require_require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date()
 
 imprimer https://github.com/WebDevCF2m2025/prefo-git-c1/blob/main/files/github-git-cheat-sheet.pdf
 
