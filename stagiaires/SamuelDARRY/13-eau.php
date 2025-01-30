@@ -1,12 +1,12 @@
 <?php
 
-$etatEau = 100;
+$etatEau = mt_rand(-100, 200);
     if ($etatEau <= 0) {
-        echo "L'eau est solide en dessous de 0°";
+        echo "La température de l'eau est à : " . $etatEau . " °. L'eau est solide en dessous de 0°";
     } elseif ($etatEau>= 100) {
-        echo "L'eau est gazeuse à partir de 100°";
+        echo "La température de l'eau est à : " . $etatEau . " °. L'eau est gazeuse à partir de 100°";
     } else {
-        echo "L'eau est liquide entre 1° et 99°";
+        echo "La température de l'eau est à : " . $etatEau . " °. L'eau est liquide entre 1° et 99°";
     }
 
 ?>
