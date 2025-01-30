@@ -51,8 +51,31 @@ echo "</p>";
 
 echo '<p>4) Affichez le jour actuel de la semaine en français avec la fonction date() et la variable $semaineFr<br>';
 
-
-// echo date();
+$date = date('l');
+switch ($date) {
+  case 'Monday':
+    echo 'Lundi';
+    break;
+  case 'Tuesday':
+    echo 'Mardi';
+    break;
+  case 'Wednesday':
+    echo 'Mercredi';
+    break;
+  case 'Thursday':
+    echo 'Jeudi';
+    break;
+  case 'Friday':
+    echo 'Vendredi';
+    break;
+  case 'Saturday':
+    echo 'Samedi';
+    break;
+  case 'Sunday':
+    echo 'Dimanche';
+    break;
+  default;
+}
 
 /*
  * 5) Affichez la liste des prénoms du tableau $classe avec une boucle foreach
