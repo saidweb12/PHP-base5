@@ -1520,6 +1520,18 @@ bonjour("John");
 
 ---
 
+| 20 | ![Exercice 20](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 20 | Crée un fichier nommé `20-ma-fonction.php` dans laquelle tu crée une fonction nommée `estPair` qui vérifie si un entier est pair, puis dans le même fichier testez la fonction ! |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+
+| 21 | ![Exercice 21](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 21 | Copie le fichier nommé `21-ma-calculette.php` dans ton dossier depuis formateur, dans laquelle tu crée une fonction nommée `calculSimple()` qui vérifie peux calculer les `+`, `-`, `*`, `/`, |
+|----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+
+--- 
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
 #### Les paramètres par défaut
 
 Les arguments sont les valeurs des paramètres.
