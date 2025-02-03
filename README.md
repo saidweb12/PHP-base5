@@ -1610,9 +1610,8 @@ echo bonjour("John");
 ---
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r(), switch(), inclusions (include, include_once, require_require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date(), str_replace()
+echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r(), switch(), inclusions (include, include_once, require, require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date(), str_replace()
 
-imprimer https://github.com/WebDevCF2m2025/prefo-git-c1/blob/main/files/github-git-cheat-sheet.pdf
 
 En cours de création : https://listphp8.cf2m.be/
 
