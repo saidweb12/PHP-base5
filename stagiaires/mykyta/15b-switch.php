@@ -11,7 +11,6 @@ switch($note) {
     
         case "4":
         case "5":
-        case "6":
              echo "$note : Peut mieux faire";
              break;
 
@@ -21,5 +20,5 @@ switch($note) {
              break;
 
         default: 
-             " $note : Très bien";
+             "$note : Très bien";
 }

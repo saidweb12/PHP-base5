@@ -29,10 +29,10 @@ for($i=1;$i<=20; $i++){
 echo " la somme des nombre entre 1 et 20 : $sum ";
 echo "<br>";
 $sum1=0;
-for($i=1;$i<=20; $i++){
+for($i=1; $i<=20; $i++){
    
     $sum1 += $i;
-    if($sum1%2==0){
+    if($sum1 % 2 == 0){
         echo " la somme est : $sum1 - pair |";
     }else{
         echo " la somme est : $sum1 - impair | ";
