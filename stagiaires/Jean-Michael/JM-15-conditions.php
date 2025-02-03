@@ -1,3 +1,4 @@
+<?php
 $a = mt_rand(0,10);
 if($a <= 3){
     echo "$a : Nul, étudie la prochaine fois";
@@ -6,3 +7,4 @@ if($a <= 3){
 }else{
     echo "$a : Bien";
 }
+?>
