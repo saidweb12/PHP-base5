@@ -43,6 +43,7 @@ $resutat = calculSimple(1,0,'+');
 if(isset($resutat)) {
     echo $resutat;
 }
+var_dump($_POST);
 ?></p>
 </body>
 </html>
