@@ -964,6 +964,19 @@ Les opérateurs de comparaison permettent de comparer deux valeurs.
 
 ---
 
+##### Les opérateurs et fonctions de comparaison
+
+![Opérateurs de comparaison](datas/2025_02_03-11_53_01.png)
+
+
+
+---
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
+
 #### Les opérateurs logiques
 
 Les opérateurs logiques permettent de combiner plusieurs conditions.
@@ -1610,7 +1623,7 @@ echo bonjour("John");
 ---
 
 ## Function à mettre en liste
-echo, var_dump(), count(), if, else, elseif, isset, empty(), print_r(), switch(), inclusions (include, include_once, require, require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date(), str_replace()
+_echo_, _var_dump()_, _count()_, _if_, _else_, _elseif_, _isset()_, _empty()_, _print_r()_, _switch()_, inclusions (include, include_once, require, require_once), for(), foreach(), while(), do{ }while(), mt_rand(), date(), str_replace()
 
 
 En cours de création : https://listphp8.cf2m.be/
