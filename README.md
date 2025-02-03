@@ -1442,7 +1442,7 @@ La différence entre une `fonction` et une `procédure` est que la `fonction` re
 
 Les fonctions natives, ainsi que leurs paramètres, seront à connaître à ce paragraphe :
 
-[Liste des fonctions à connaître](../../tree/main/functions#les-fonctions-natives-et-constructions-du-langage-à-connaitre)
+[Liste des fonctions à connaître](https://listphp8.cf2m.be/)
 
 --- 
 
