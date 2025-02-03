@@ -30,7 +30,7 @@
   - [Autre manière de faire des conditions](#autre-manière-de-faire-des-conditions)
   - [switch](#switch) 
   - [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
-      - [Les Opérateurs et fonctions de comparaison](#les-opérateurs-et-fonctions-de-comparaison)
+      - [Les opérateurs et fonctions de comparaison](#les-opérateurs-et-fonctions-de-comparaison)
   - [Les opérateurs logiques](#les-opérateurs-logiques)
   - [Les opérateurs d'affectation](#les-opérateurs-daffectation)
 - [Les boucles](#les-boucles)
