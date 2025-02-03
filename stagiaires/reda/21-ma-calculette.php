@@ -1,6 +1,7 @@
 <?php
 function calculSimple($nb1, $nb2, $opertator)
 {
+
   switch ($opertator) {
     case '+':
       return  $nb1 + $nb2;
@@ -12,7 +13,11 @@ function calculSimple($nb1, $nb2, $opertator)
       return $nb1 * $nb2;
       break;
     case '/':
-      return $nb1 / $nb2;
+      if ($nb1 == 0 || $nb2 == 0) {
+        return 'Operation Impossible';
+      } else {
+        return $nb1 / $nb2;
+      }
       break;
     default:
       echo 'Operation Impossible';
