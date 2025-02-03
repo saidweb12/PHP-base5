@@ -1164,9 +1164,9 @@ for(
 | 16 | ![Exercice 16](https://github.com/mikhawa/PHP-base/blob/main/datas/folder-type-php-opened_24.png?raw=true) | Exercice 16 | Créez une copie du fichier `16-boucle-for.php` dans votre espace stagiaire, puis créez les boucles for telles qu'indiquées dans les commentaires |
 |----|:----------------------------------------------------------------------------------------------------------:|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
 
-Le résultat de l'exercice 25 devrait ressembler à ceci :
+Le résultat de l'exercice 16 devrait ressembler à ceci :
 
-![exercice 25](https://raw.githubusercontent.com/WebDevCF2m2023/PHP-base/main/datas/screenshot-php-base_8080-2024.01.09-15_54_20.png)
+![exercice 16](https://raw.githubusercontent.com/WebDevCF2m2023/PHP-base/main/datas/screenshot-php-base_8080-2024.01.09-15_54_20.png)
 
 --- 
 
