@@ -1450,6 +1450,28 @@ Les fonctions natives, ainsi que leurs paramètres, seront à connaître à ce p
 
 ---
 
+#### Les arguments nommés
+
+Depuis PHP 8, il est possible de passer des arguments nommés aux fonctions natives ou personnalisées.
+
+Les arguments nommés sont passés en préfixant la valeur avec le nom du paramètre suivit d'un deux-points. Utiliser des mots-clés réservés comme nom de paramètre est autorisé. Le nom du paramètre doit être un identifiant, le spécifiant de façon dynamique n'est pas permis.
+
+```php
+<?php
+$str = "Hello-World";
+// par ordre de la fonction par défaut
+echo str_replace("-", " ", $str);
+echo "<hr>";
+// on peut changer cet ordre en utilisant le nom des arguments
+echo str_replace(subject: $str, replace: " ", search: "-");
+```
+
+--- 
+
+[Retour au menu](#menu-de-navigation)
+
+---
+
 ### Les fonctions personnalisées
 
 Il existe aussi des fonctions définies par l'utilisateur, qu'on nomme fonctions personnalisées.
