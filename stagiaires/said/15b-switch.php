@@ -8,7 +8,7 @@ switch ($rand){
     case 3:
         echo "$rand : Nul , etudie la prochaine fois ";
         break; 
-        
+
     case 4: 
     case 5: 
         echo "$rand : peut mieux faire";
@@ -16,10 +16,10 @@ switch ($rand){
 
     case 6:      
     case 7: 
-        echo "$ rand : bien ";
+        echo "$rand : bien ";
         break;
 
-    defaut:
+    default:
         echo "$rand : tres bien " ;   
 
 
