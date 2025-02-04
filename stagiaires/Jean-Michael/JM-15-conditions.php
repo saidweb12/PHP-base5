@@ -4,7 +4,9 @@ if($a <= 3){
     echo "$a : Nul, étudie la prochaine fois";
 }elseif($a <= 5){
     echo "$a : Peut mieux faire";
-}else{
+}elseif($a <= 7){
     echo "$a : Bien";
+}else{
+    echo "$a : Très bien";
 }
 ?>
