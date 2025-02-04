@@ -3,6 +3,8 @@
  * Les tableaux
  */
 
+ $tab = ["a","b","c","d", "e", "f", "g", "h", "i", "j"];
+
 
 // des prénoms
 $classe=['Jean','Eric','Marie','Julie','Luc','Pierre','Paul','Jacques','Hélène','Anne','Yassine','Jean-Luc','Magib','Samsung',];
