@@ -1,7 +1,8 @@
+<?php
 $a = mt_rand(0,20);
 if($a % 2 === 0){
-    echo "Nombre pair";
-// sinon si
+    echo "$a : Nombre pair";
 }else{
-    echo "Nombre impair";
+    echo "$a : Nombre impair";
 }
+?>
